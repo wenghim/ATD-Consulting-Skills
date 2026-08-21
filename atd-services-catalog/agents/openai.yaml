@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATD Services Catalog"
+  short_description: "Build traceable incremental ATD service catalogs"
+  default_prompt: "Use $atd-services-catalog to analyze new proposal and final-report documents, update the consolidated services catalog, and maintain its processing register."

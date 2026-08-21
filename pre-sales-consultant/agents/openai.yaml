@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pre-Sales Consultant"
+  short_description: "Tender analysis, proposal support, and workflow improvement"
+  default_prompt: "Use $pre-sales-consultant to analyze tender documents and produce one compact Markdown tender analysis with a Table of Contents, source references inside substantive tables, and a bottom source table only for prose- or list-only sections, or enhance the skill from reusable workflow feedback."

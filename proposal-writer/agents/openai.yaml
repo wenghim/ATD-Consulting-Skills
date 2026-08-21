@@ -1,0 +1,4 @@
+interface:
+  display_name: "Proposal Writer"
+  short_description: "Create traceable proposals with reusable Word formatting"
+  default_prompt: "Use $proposal-writer to create a traceable proposal from the requirements source and ATD service catalog, then format approved output with the default ATD proposal profile."

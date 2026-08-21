@@ -1,0 +1,4 @@
+interface:
+  display_name: "BPMN Modeller"
+  short_description: "Generate importable BPMN process models"
+  default_prompt: "Use $bpmn-modeller to convert this process description into an importable .bpmn model."

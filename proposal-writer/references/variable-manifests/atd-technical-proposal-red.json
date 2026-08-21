@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "variant_id": "atd-technical-proposal-red",
+  "marker_syntax": "{{UPPER_SNAKE_CASE}}",
+  "marker_regex": "\\{\\{[A-Z][A-Z0-9_]*\\}\\}",
+  "highlight_color": "FFFF00",
+  "highlight_name": "yellow",
+  "observed_terms": [
+    "Public Utilities Board",
+    "PUB",
+    "<To be filled>"
+  ],
+  "candidate_regexes": [
+    "\\bVer(?:sion)?\\.?\\s*\\d+(?:\\.\\d+)+\\b",
+    "\\b2026\\b",
+    "\\b(?:SGD|S\\$)\\b",
+    "\\b\\d+(?:\\.\\d+)?%",
+    "\\b\\d+[- ]?(?:day|week|month|year)s?\\b"
+  ],
+  "source_observations": {
+    "client_short_name_occurrences": 147,
+    "client_legal_name_occurrences": 6,
+    "unfilled_placeholder_occurrences": 9,
+    "version_consistency_warning": "Source filename uses v0.3 while the running header uses Ver 1.0. Treat DOCUMENT_VERSION as unresolved until confirmed."
+  },
+  "variables": [
+    {"key": "CLIENT_LOGO", "category": "client", "type": "image", "required": true},
+    {"key": "CLIENT_LEGAL_NAME", "category": "client", "type": "text", "required": true, "observed_aliases": ["Public Utilities Board"]},
+    {"key": "CLIENT_SHORT_NAME", "category": "client", "type": "text", "required": true, "observed_aliases": ["PUB"]},
+    {"key": "PROPOSAL_TYPE", "category": "document", "type": "text", "required": true},
+    {"key": "PROJECT_TITLE", "category": "project", "type": "text", "required": true},
+    {"key": "PROJECT_DURATION", "category": "project", "type": "duration", "required": true},
+    {"key": "AOR_NUMBER", "category": "procurement", "type": "text", "required": false},
+    {"key": "PROCUREMENT_REFERENCE", "category": "procurement", "type": "text", "required": false},
+    {"key": "CONTACT_PERSON", "category": "contact", "type": "person", "required": true},
+    {"key": "PROVIDER_ADDRESS", "category": "contact", "type": "address", "required": false},
+    {"key": "PROVIDER_PHONE", "category": "contact", "type": "text", "required": false},
+    {"key": "PROVIDER_FAX", "category": "contact", "type": "text", "required": false},
+    {"key": "PROVIDER_WEBSITE", "category": "contact", "type": "url", "required": false},
+    {"key": "DOCUMENT_YEAR", "category": "document", "type": "year", "required": true},
+    {"key": "DOCUMENT_VERSION", "category": "document", "type": "version", "required": true},
+    {"key": "DOCUMENT_TYPE", "category": "document", "type": "text", "required": true},
+    {"key": "CONFIDENTIALITY_LABEL", "category": "document", "type": "text", "required": true},
+    {"key": "PREPARED_DATE", "category": "document", "type": "date", "required": false},
+    {"key": "SOLUTION_NAME", "category": "solution", "type": "text", "required": false},
+    {"key": "SOLUTION_LOGO", "category": "solution", "type": "image", "required": false},
+    {"key": "COMMERCIAL_CURRENCY", "category": "commercial", "type": "currency", "required": false},
+    {"key": "FEE_AMOUNT", "category": "commercial", "type": "money", "required": false},
+    {"key": "TAX_TREATMENT", "category": "commercial", "type": "text", "required": false},
+    {"key": "PAYMENT_MILESTONE", "category": "commercial", "type": "text", "required": false, "repeatable": true},
+    {"key": "PAYMENT_PERCENTAGE", "category": "commercial", "type": "percentage", "required": false, "repeatable": true},
+    {"key": "TIMELINE_MILESTONE", "category": "timeline", "type": "text", "required": false, "repeatable": true},
+    {"key": "TIMELINE_DATE", "category": "timeline", "type": "date", "required": false, "repeatable": true},
+    {"key": "TIMELINE_DURATION", "category": "timeline", "type": "duration", "required": false, "repeatable": true},
+    {"key": "PROJECT_QUANTITY", "category": "project", "type": "number", "required": false, "repeatable": true},
+    {"key": "TEAM_MEMBER_NAME", "category": "team", "type": "person", "required": false, "repeatable": true},
+    {"key": "TEAM_MEMBER_ROLE", "category": "team", "type": "text", "required": false, "repeatable": true},
+    {"key": "TEAM_MEMBER_PHOTO", "category": "team", "type": "image", "required": false, "repeatable": true},
+    {"key": "FIGURE_IMAGE", "category": "figure", "type": "image", "required": false, "repeatable": true},
+    {"key": "FIGURE_CAPTION", "category": "figure", "type": "text", "required": false, "repeatable": true},
+    {"key": "TABLE_CAPTION", "category": "table", "type": "text", "required": false, "repeatable": true}
+  ],
+  "content_exclusions": [
+    "client requirements",
+    "scope of work",
+    "proposal narrative",
+    "company-description prose",
+    "commercial source values",
+    "source screenshots and diagrams"
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "identity": {
+    "variant_id": "atd-technical-proposal-red",
+    "variant_name": "ATD Technical Proposal Red",
+    "source_filename": "PUB_EA_PoC_Proposal v0.3.docx",
+    "source_sha256": "3625595620d2392cf8f9991e13335c964421f39da82327d2740ba2288722b31c",
+    "analyzed_at": "2026-07-13T06:54:14.081603+00:00",
+    "content_policy": "formatting-only"
+  },
+  "semantic_roles": {
+    "normal": {
+      "source_style_id": "Normal",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 11.0,
+        "color": "000000"
+      },
+      "paragraph": {},
+      "confidence": 1.0,
+      "evidence": "OOXML document defaults"
+    },
+    "title": {
+      "source_style_id": "Title",
+      "font": {
+        "size_pt": 28.0
+      },
+      "paragraph": {},
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "heading_1": {
+      "source_style_id": "Heading1",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 16.0,
+        "bold": true,
+        "color": "C00000"
+      },
+      "paragraph": {
+        "space_before_pt": 14.0,
+        "space_after_pt": 6.0,
+        "keep_next": true
+      },
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "heading_2": {
+      "source_style_id": "Heading2",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 13.0,
+        "bold": true,
+        "color": "C00000"
+      },
+      "paragraph": {
+        "space_before_pt": 10.0,
+        "space_after_pt": 4.0,
+        "keep_next": true
+      },
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "heading_3": {
+      "source_style_id": "Heading3",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 12.0,
+        "bold": true,
+        "color": "C00000"
+      },
+      "paragraph": {
+        "space_before_pt": 8.0,
+        "space_after_pt": 4.0,
+        "keep_next": true
+      },
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "caption": {
+      "source_style_id": "Caption",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 9.0,
+        "italic": true,
+        "color": "0E2841"
+      },
+      "paragraph": {
+        "alignment": "center",
+        "space_after_pt": 10.0,
+        "keep_next": true
+      },
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "quote": {
+      "source_style_id": "Quote",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 11.0,
+        "italic": true,
+        "color": "404040"
+      },
+      "paragraph": {
+        "alignment": "center",
+        "left_indent_pt": 43.2,
+        "right_indent_pt": 43.2,
+        "space_before_pt": 10.0,
+        "space_after_pt": 8.0
+      },
+      "confidence": 1.0,
+      "evidence": "explicit Word style"
+    },
+    "header": {
+      "source_style_id": "Header",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 11.0,
+        "color": "595959"
+      },
+      "paragraph": {
+        "space_after_pt": 3.0
+      },
+      "confidence": 0.95,
+      "evidence": "OOXML header runs and document defaults"
+    },
+    "footer": {
+      "source_style_id": "Footer",
+      "font": {
+        "name": "Calibri",
+        "size_pt": 11.0,
+        "color": "000000"
+      },
+      "paragraph": {
+        "alignment": "right"
+      },
+      "confidence": 1.0,
+      "evidence": "OOXML footer field and paragraph formatting"
+    }
+  },
+  "sections": [
+    {
+      "index": 0,
+      "break_type": "nextPage",
+      "orientation": "portrait",
+      "page_width_in": 8.2681,
+      "page_height_in": 11.6931,
+      "columns": 1,
+      "margins_in": {
+        "top": 0.75,
+        "right": 0.75,
+        "bottom": 0.75,
+        "left": 0.75,
+        "header": 0.4917,
+        "footer": 0.4917,
+        "gutter": 0.0
+      }
+    }
+  ],
+  "theme": {
+    "document_default_font": "Calibri",
+    "document_default_size_pt": 11.0,
+    "theme_major_font": "Aptos Display",
+    "theme_minor_font": "Aptos",
+    "colors": {
+      "primary_red": "C00000",
+      "body_text": "000000",
+      "header_gray": "595959",
+      "header_rule": "AAAAAA",
+      "caption_text": "0E2841",
+      "link_blue": "467886",
+      "table_key_fill": "FAF0F0",
+      "white": "FFFFFF"
+    }
+  },
+  "table_design": {
+    "header_fill": "C00000",
+    "header_font_color": "FFFFFF",
+    "header_bold": true,
+    "header_alignment": "center",
+    "first_column_fill": "FAF0F0",
+    "first_column_bold": true,
+    "body_fill": "FFFFFF",
+    "border_color": "000000",
+    "border_size_eighth_points": 4,
+    "caption_role": "caption"
+  },
+  "component_rules": {
+    "cover": {
+      "alignment": "centered title panel with client logo above and provider brand block below",
+      "border": "single black rectangle around the proposal identity block",
+      "content": "variable markers only; do not preserve source proposal prose"
+    },
+    "header": {
+      "layout": "provider name, confidentiality, document year and type at left; document version at right",
+      "bottom_border_color": "AAAAAA",
+      "bottom_border_size_eighth_points": 4
+    },
+    "footer": {
+      "layout": "automatic PAGE field aligned right",
+      "top_border_color": "000000",
+      "top_border_size_eighth_points": 4
+    },
+    "table_of_contents": {
+      "field": "TOC",
+      "update_before_delivery": true
+    },
+    "figures": {
+      "alignment": "center",
+      "caption_position": "below",
+      "caption_role": "caption",
+      "source_observation": "32 placements: 28 inline and 4 anchored",
+      "asset_policy": "use task-supplied figures; do not copy source screenshots or diagrams into the skill"
+    }
+  },
+  "field_inventory": {
+    "TOC": 1,
+    "PAGEREF": 38,
+    "SEQ": 31,
+    "REF": 9,
+    "PAGE": 1,
+    "INCLUDEPICTURE": 1
+  },
+  "tables": [],
+  "limitations": [
+    "The source uses direct formatting for some cover and table elements; component rules preserve the observed design intent without retaining source text.",
+    "Source-specific images, requirements, scope, company-description prose, proposal narrative, and commercial values are intentionally excluded."
+  ]
+}
